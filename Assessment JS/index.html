@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="_css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/animate.css">
+	<title>Assessment JS</title>
+
+</head>
+<body>
+    <div id="container">
+
+        <div id="pai"></div>
+
+    </div>
+
+    <script>
+      var app = { };
+      app.getComponente = function (nome){
+        if( !app[nome]) {
+          app[nome] = { $ctrl:{} };
+        }
+        return app[nome];
+      };
+    </script>
+
+    <script type="text/javascript" src="gameInterface.js"></script>
+
+</body>
+
+</html>
