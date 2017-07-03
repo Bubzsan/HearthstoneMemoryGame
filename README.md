@@ -1,2 +1,2 @@
 # HearthstoneMemoryGame
-A Hearthstone based Memory Game
+A Hearthstone-inspired Memory Card Game
