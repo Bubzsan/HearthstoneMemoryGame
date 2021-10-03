@@ -1,2 +1,2 @@
 # HearthstoneCopyaMemoryGame
-A Hearthstone-inspired Memory Card Game
+A Hearthstone-inspired Memory Card Game!
